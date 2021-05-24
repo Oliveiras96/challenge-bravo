@@ -1,0 +1,66 @@
+.converterContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    margin-top: 4rem;
+
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+}
+
+.converterContainer select {
+    /* appearance: none; */
+    background-color: var(--card-bg);
+    border: 0;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+label:last-child {
+    width: 3rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.converterContainer input {
+    margin-left: 0.5rem;
+    border: 0;
+    border-bottom: 1px solid var(--text);
+
+}
+
+.converterContainer input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--strong-text);
+    transition: 0.25s;
+}
+
+.converterContainer button {
+
+    height: 40px;
+    border-radius: 10px;
+
+    border: 0;
+    background-color: var(--lime-green);
+
+    color: var(--background);
+}
+
+.converterContainer button:hover {
+    opacity: 0.85;
+    transform: scale(1.1);
+    transition: 0.25s;
+}

@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+    padding-top: 5rem;
+
+    font-size: 3rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container span {
+    padding: 1rem;
+}
+
+.container, img {
+    width: 150;
+    height: 150px;
+}

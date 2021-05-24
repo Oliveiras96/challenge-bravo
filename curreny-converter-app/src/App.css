@@ -1,0 +1,24 @@
+:root{
+    --lime-green: hsl(163, 72%, 41%);
+    --bright-red: hsl(356, 69%, 56%);
+
+    --background:  hsl(0, 0%, 100%);
+    --top-bg: hsl(225, 100%, 98%);
+    --card-bg: hsl(227, 47%, 96%);
+    --text: hsl(228, 12%, 44%);
+    --strong-text: hsl(230, 17%, 14%);
+
+}
+
+
+.App {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    
+    color: var(--text);
+}

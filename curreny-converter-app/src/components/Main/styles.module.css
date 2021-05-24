@@ -1,0 +1,14 @@
+.appSection {
+    text-align: center;
+}
+
+.appSection a {
+    text-decoration: none;
+
+    color: var(--strong-text);
+}
+
+.appSection a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
