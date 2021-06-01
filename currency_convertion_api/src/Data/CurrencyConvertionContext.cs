@@ -9,6 +9,7 @@ namespace src.Data
         {
         }
 
-        public DbSet<EntriesModelInput> EntriesModel { get; set; }
+        // DbSet its virtual so we can mock it
+        public virtual DbSet<EntriesModelInput> EntriesModel { get; set; }
     }
 }
